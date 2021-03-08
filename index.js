@@ -1,5 +1,4 @@
-// Your code here
-function createEmployeerecord(record) {
+function createEmployeeRecord(record) {
   const employeeRecord = {
     firstName: record[0],
     familyName: record[1],
@@ -19,7 +18,7 @@ function createEmployeeRecords(employeeRecordsArray) {
 
 function createTimeInEvent(employeeRecord, dateStamp) {
   let stamp = dateStamp.split(' ');
-  let date = stamp[0], hour = stamp[1];
+  let date = stamp[0], hour = stamp[1]; 
   // let [date, hour] = dateStamp.split(' ');
   employeeRecord.timeInEvents.push({
     type: "TimeIn",
