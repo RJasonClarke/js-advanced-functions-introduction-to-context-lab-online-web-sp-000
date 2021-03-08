@@ -1,5 +1,5 @@
 // Your code here
-function createEmployeerecord(record) {
+function createEmployeerecords(record) {
   const employeeRecord = {
 
   };
