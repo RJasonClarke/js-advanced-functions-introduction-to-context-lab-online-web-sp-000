@@ -7,7 +7,6 @@ function createEmployeerecord(record) {
     payPerHour: record[3],
     timeInEvents: [],
     timeOutEvents: []
-
   };
   return employeeRecord;
 }
