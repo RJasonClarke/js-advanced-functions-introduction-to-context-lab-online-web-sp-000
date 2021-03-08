@@ -1,7 +1,7 @@
 // Your code here
-function createEmployeerecords(record) {
-  const employeeRecords = {
+function createEmployeerecord(record) {
+  const employeeRecord = {
 
   };
-  return employeeRecords;
+  return employeeRecord;
 }
